@@ -1,5 +1,25 @@
 # 小刘 · Interior Design Skill
 
+## 交互介绍页
+
+[**打开交互介绍页 →**](https://ethan101-liu.github.io/xiaoliu-Interior-design-skill/)
+
+![小刘 Interior Design Skill 交互介绍页预览](docs/assets/preview.png)
+
+介绍页包含可切换配色的空间插画、五阶段流程、9 种风格、需求简报、与原脚本一致的提示词组装、改图指令和建模指南。
+
+顶部风格色块、五阶段流程、交互区风格按钮、交付物标签与提示词语言按钮均支持鼠标悬停或点击切换。触屏使用点击操作，交付物标签也支持键盘方向键切换。
+
+- [查看介绍页源页面](docs/index.html)
+- [下载完整 Skill](docs/assets/interior-design-workflow.zip)
+- [阅读原始 Skill](skill/interior-design-workflow/SKILL.md)
+
+空间插画仅作配色示意；本地参考图只在浏览器中预览，不上传。页面生成设计输入与修改指令，不在浏览器中调用 AI 出图服务。
+
+介绍页通过 GitHub Pages 发布，仓库右侧 About → Website 也提供同一访问入口。
+
+## Skill 简介
+
 把室内设计需求整理为可执行的五阶段工作流：**需求分析 → 方案策划 → 效果图生成 → 改图迭代 → 建模落地**。
 
 这是一个供支持 Skill 的 AI 助手使用的工作流与参考资料包，包含设计方案结构、9 种风格、图生图修改规范、4 款软件的建模指南及中英文生图提示词脚本。
@@ -62,21 +82,3 @@ python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
 然后打开 [本地交互介绍页](http://127.0.0.1:8765/docs/)。网站为 HTML/CSS/JavaScript 静态页面，无构建依赖。
-
-## 交互介绍页
-
-[**打开交互介绍页 →**](https://ethan101-liu.github.io/xiaoliu-Interior-design-skill/)
-
-![小刘 Interior Design Skill 交互介绍页预览](docs/assets/preview.png)
-
-介绍页包含可切换配色的空间插画、五阶段流程、9 种风格、需求简报、与原脚本一致的提示词组装、改图指令和建模指南。
-
-顶部风格色块、五阶段流程、交互区风格按钮、交付物标签与提示词语言按钮均支持鼠标悬停或点击切换。触屏使用点击操作，交付物标签也支持键盘方向键切换。
-
-- [查看介绍页源页面](docs/index.html)
-- [下载完整 Skill](docs/assets/interior-design-workflow.zip)
-- [阅读原始 Skill](skill/interior-design-workflow/SKILL.md)
-
-空间插画仅作配色示意；本地参考图只在浏览器中预览，不上传。页面生成设计输入与修改指令，不在浏览器中调用 AI 出图服务。
-
-介绍页通过 GitHub Pages 发布，仓库右侧 About → Website 也提供同一访问入口。
